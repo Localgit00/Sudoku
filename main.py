@@ -38,7 +38,7 @@ def is_valid_move(grid, row, col, number):
         grid[row][col] = 0
     
     return False
-
+# example
 grid = [[0, 0, 0, 0, 0, 0, 6, 8, 0],
         [0, 0, 0, 0, 7, 3, 0, 0, 9],
         [3, 0, 9, 0, 0, 0, 0, 4, 5],
@@ -57,4 +57,4 @@ if solve(grid, 0, 0):
             print(grid[i][j], end = " ")
         print()
 else:
-    print("No Solution.")
+    print("No solution.")
