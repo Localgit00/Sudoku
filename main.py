@@ -14,7 +14,6 @@ def is_valid_move(grid, row, col, number):
         for y in range(3):
             if grid[corner_row+x][corner_col+y] == number:
                 return False
-        
     return True
     
     if col == 9:
@@ -36,8 +35,8 @@ def is_valid_move(grid, row, col, number):
                 return True
         
         grid[row][col] = 0
-    
     return False
+
 # example
 grid = [[0, 0, 0, 0, 0, 0, 6, 8, 0],
         [0, 0, 0, 0, 7, 3, 0, 0, 9],
